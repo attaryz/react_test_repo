@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #d3dfb8;
+}
+
+.question {
+  list-style: none;
+  background-color: #574d68;
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  border-radius: 1rem;
+  background-color: #ec4e20;
+}
+.options label {
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #1c3a13;
+}
+.options span {
+  background-color: #e8d7ff;
+  padding: 1rem;
+  border-radius: 1rem;
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "eventTitle": "Big Test Event",
+    "eventSTD": "2022-07-10:12:00:00",
+    "eventSED": "2022-07-15:04:00:00",
+    "eventCity": "Jeddah",
+    "eventCountry": "Saudi Arabia",
+    "tickets": [
+      {
+        "ticketId": "44556677",
+        "ticketTitle": "VIP",
+        "capacity": 1000,
+        "price": 150,
+        "availableMonths": ["June"],
+        "availableDays": ["10", "11", "12"],
+        "availableTimes": ["01:00", "03:00"],
+        "extraServices": [
+          {
+            "question": "Do You Want Coffee",
+            "options": [
+              {
+                "title": "yes",
+                "actionType": 3,
+                "value": 14
+              },
+              {
+                "title": "no",
+                "actionType": 3,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "question": "Do You Want Tea",
+            "options": [
+              {
+                "title": "yes",
+                "actionType": 3,
+                "value": 6
+              },
+              {
+                "title": "no",
+                "actionType": 3,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "question": "Do You Want Milk",
+            "options": [
+              {
+                "title": "yes",
+                "actionType": 3,
+                "value": 9
+              },
+              {
+                "title": "no",
+                "actionType": 3,
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ticketId": "44556677",
+        "ticketTitle": "Regular",
+        "capacity": 1000,
+        "price": 60,
+        "extraServices": [
+          {
+            "question": "Do You Want Coffee",
+            "options": [
+              {
+                "title": "yes",
+                "actionType": 3,
+                "value": 14
+              },
+              {
+                "title": "no",
+                "actionType": 3,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "question": "Do You Want Tea",
+            "options": [
+              {
+                "title": "yes",
+                "actionType": 3,
+                "value": 6
+              },
+              {
+                "title": "no",
+                "actionType": 3,
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cart": [
+      {
+        "selectdMonth": "June",
+        "selectedDays": [10, 11],
+        "selectedTimes": ["17:00", "20:30"],
+        "quantity": 10
+      }
+    ]
+  }
+]
